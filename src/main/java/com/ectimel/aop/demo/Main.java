@@ -9,12 +9,15 @@ public class Main {
                 new AnnotationConfigApplicationContext(DemoConfig.class);
 
         AccountDAO accountDAO = context.getBean("accountDAO", AccountDAO.class);
+        MembershipDAO membershipDAO = context.getBean("membershipDAO", MembershipDAO.class);
 
-        accountDAO.addAccount();
 
-        for (int i = 0; i < 10; i++) {
-            accountDAO.addAccount();
-        }
+        Account account = new Account("Dominik", "God level");
+        accountDAO.addAccount(account);
+        System.out.println("-------------------------------------------------------");
+        membershipDAO.someMethod();
+        System.out.println("-------------------------------------------------------");
+        System.out.println(membershipDAO.addSuperStar());
 
         context.close();
 

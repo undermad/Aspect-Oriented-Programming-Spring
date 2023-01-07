@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c562639f-2922-423b-b897-9d04558212f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/DemoAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/AccountDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/DemoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/EverythingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/ExpressionAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/IntroductionAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/MembershipDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demod/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demod/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demod/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/DemoAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.32566696",
+    "spring.configuration.checksum": "0f57032c91fc6cd1333cbfeda78a637b",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -67,13 +69,31 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ectimel.aop.demod" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.ectimel.aop.demod.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ectimel.aop.demo.Main" />
       <module name="AopDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ectimel.aop.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ectimel.aop.demod.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ectimel.aop.demod.Main" />
+      <module name="AopDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ectimel.aop.demod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +189,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.com.ectimel.aop.demod.Main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.70" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.ectimel.aop.demod.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -187,6 +209,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673049676774</updated>
       <workItem from="1673049677805" duration="1264000" />
+      <workItem from="1673108604362" duration="7699000" />
     </task>
     <servers />
   </component>
