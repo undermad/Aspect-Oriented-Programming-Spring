@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c562639f-2922-423b-b897-9d04558212f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/EverythingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/ExpressionAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/IntroductionAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/MembershipDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demod/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demod/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/AfterA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/AfterReturningC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/AfterThrowing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/DemoAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/EverythingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/BeforeAndPointcut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/ExpressionAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/PointCutsAndBefore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/IntroductionAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/Before.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/AccountDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demod/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demod/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,28 +43,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.32566696",
-    "spring.configuration.checksum": "0f57032c91fc6cd1333cbfeda78a637b",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.32566696&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0f57032c91fc6cd1333cbfeda78a637b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ectimel.aop.demod" />
@@ -210,6 +206,8 @@
       <updated>1673049676774</updated>
       <workItem from="1673049677805" duration="1264000" />
       <workItem from="1673108604362" duration="7699000" />
+      <workItem from="1673143782445" duration="57000" />
+      <workItem from="1673193679849" duration="5900000" />
     </task>
     <servers />
   </component>

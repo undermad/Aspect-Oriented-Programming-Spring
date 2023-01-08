@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 @Order(999)
-public class EverythingAspect {
+public class BeforeAndPointcut {
 
 
     @Pointcut("execution(* com.ectimel.aop.demod.*.* (..))")

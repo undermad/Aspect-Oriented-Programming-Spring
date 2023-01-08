@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 @Order(1)
-public class ExpressionAspect {
+public class PointCutsAndBefore {
 
     @Pointcut("execution(* com.ectimel.aop.demod.*.* (..))")
     public static void allClassInDemodPackage() {
