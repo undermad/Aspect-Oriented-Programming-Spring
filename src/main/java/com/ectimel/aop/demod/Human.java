@@ -2,6 +2,8 @@ package com.ectimel.aop.demod;
 
 import org.springframework.stereotype.Component;
 
+import java.util.concurrent.TimeUnit;
+
 @Component
 public class Human {
 
@@ -20,7 +22,23 @@ public class Human {
         this.race = race;
     }
 
+    public String getName(boolean b ){
+
+        if(b){
+            throw new RuntimeException("Here we are!");
+        }
+
+        return getName();
+    }
+
     public String getName() {
+
+        try {
+            TimeUnit.SECONDS.sleep(5);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
         return name;
     }
 

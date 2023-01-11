@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c562639f-2922-423b-b897-9d04558212f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/AfterA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/AfterReturningC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/AfterThrowing.java" afterDir="false" />
+    <list default="true" id="c562639f-2922-423b-b897-9d04558212f7" name="Changes" comment="Created some example of @AfterReturning, @AfterThrowing and @After advices.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/AroundA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/EverythingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/BeforeAndPointcut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/ExpressionAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/PointCutsAndBefore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/IntroductionAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/Before.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demo/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/AfterA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/aspect/AfterA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demod/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demod/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demod/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ectimel/aop/demod/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,11 +203,25 @@
       <workItem from="1673049677805" duration="1264000" />
       <workItem from="1673108604362" duration="7699000" />
       <workItem from="1673143782445" duration="57000" />
-      <workItem from="1673193679849" duration="5900000" />
+      <workItem from="1673193679849" duration="6255000" />
+      <workItem from="1673225678529" duration="423000" />
+      <workItem from="1673406470384" duration="3856000" />
     </task>
+    <task id="LOCAL-00001" summary="Created some example of @AfterReturning, @AfterThrowing and @After advices.">
+      <created>1673199897024</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673199897024</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created some example of @AfterReturning, @AfterThrowing and @After advices." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created some example of @AfterReturning, @AfterThrowing and @After advices." />
   </component>
 </project>

@@ -24,6 +24,5 @@ public class AfterA {
 
         System.out.println("Executing @After(finally) method");
 
-
     }
 }

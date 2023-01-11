@@ -6,8 +6,13 @@ import com.ectimel.aop.demo.DemoConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.List;
+import java.util.logging.Logger;
 
 public class Main {
+
+    private static Logger logger = Logger.getLogger(Main.class.getName());
+
+
     public static void main(String[] args) {
 
         AnnotationConfigApplicationContext context =
@@ -17,15 +22,15 @@ public class Main {
         Food food = new Food("Chicken");
 
         human.setName("Dominik");
-        System.out.println("********************");
+        logger.info("********************");
         human.setRace("White");
-        System.out.println("********************");
+        logger.info("********************");
         human.eat(food);
-        System.out.println("********************");
-        System.out.println("********************");
-        System.out.println("********************");
-        System.out.println("********************");
-        System.out.println("********************");
+        logger.info("********************");
+        logger.info("********************");
+        logger.info("********************");
+        logger.info("********************");
+        logger.info("********************");
 
         Account account = new Account("First", "Basic");
         Account account2 = new Account("Second", "Basic");
@@ -42,38 +47,31 @@ public class Main {
         accountDAO.addAccount(account5);
 
 
-        System.out.println("********************");
-        System.out.println("********************");
-        System.out.println("********************");
-        System.out.println("********************");
-        System.out.println("********************");
+        logger.info("********************");
+        logger.info("********************");
+        logger.info("********************");
+        logger.info("********************");
+        logger.info("********************");
 
 //        List<Account> accountList = accountDAO.findAccounts(b);
-//        System.out.println("Number of accounts: " + accountList.size());
+//        logger.info();("Number of accounts: " + accountList.size());
 
-        System.out.println("ACCOUNT AFTER MODIFICATION: ");
-//        accountList.forEach(account1 -> System.out.println(account1.getName()));
-
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        logger.info("ACCOUNT AFTER MODIFICATION: ");
+//        accountList.forEach(account1 -> logger.info();(account1.getName()));
 
 
-        System.out.println("AFTER THROWING DEMO");
-        System.out.println();
+        logger.info("AFTER THROWING DEMO");
 
         try {
             boolean b = true;
             accountDAO.findAccounts(b);
         } catch (Exception e){
-            System.out.println(e);
+            logger.info(String.valueOf(e));
         }
 
 
-
+        boolean b = true;
+        logger.info(human.getName(b));
 
 
 
